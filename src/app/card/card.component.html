@@ -1,0 +1,12 @@
+<h1 style="text-align: center;"><u>API Response</u></h1>
+<div class="card-group">
+    <div class="card" *ngFor="let post of posts">
+      <div class="card-body">
+        <h1 class="card-id">User Id: {{post.userId}}</h1>
+        <h1 class="card-id">Id: {{post.id}}</h1>
+        <h5 class="card-title">{{ post.title }}</h5>
+        <p class="card-text">{{ post.body }}</p>
+      </div>
+    </div>
+  </div>
+  
